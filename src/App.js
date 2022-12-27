@@ -1,11 +1,21 @@
 
 import './App.css';
-import {Producto} from './componentes/Producto';
+import Producto from './componentes/Producto';
 
 function App() {
   return (
     <div className="App">
-      <Producto/>
+   
+        <h1>What items to store?</h1>
+        <p className='instrucciones'>
+          Select which items you wish to store 
+          before moving to your new home.
+          We’ll keep ’em safe!
+        </p>
+         
+      <div className='contenedor-componentes'>
+        <Producto/>
+      </div>
     </div>
   );
 }
