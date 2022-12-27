@@ -14,7 +14,10 @@ function App() {
         </p>
          
       <div className='contenedor-componentes'>
-        <Producto/>
+        <Producto
+          imagen=''
+          nombre='Beds'
+        />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Producto.css';
 import App from '../App';
 
-function Producto(){
+function Producto(props){
   return(
     <div className='contenedor-producto'>
       <div className='contenedor-iconos'>
@@ -11,9 +11,8 @@ function Producto(){
         src={require('../img/img-cama.png')}
         alt='Icono de cama'
         />
-        <br></br>
-        <div className='Contenedor-texto-nombre'>
-          <p className='nombre-producto'>Beds</p>
+        <div className='contenedor-texto-nombre'>
+          <p className='nombre-producto'>{props.nombre}</p>
         </div>
       </div>
     </div> 
