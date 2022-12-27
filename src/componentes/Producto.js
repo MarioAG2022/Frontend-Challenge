@@ -1,7 +1,7 @@
 import React from 'react';
 import App from '../App';
 
-function Producto(){
+export function Producto(){
   return(
     <div className='contenedor-producto'>
       <img 
@@ -16,4 +16,3 @@ function Producto(){
   );
 }
 
-export default Producto;

@@ -1,6 +1,6 @@
 
 import './App.css';
-import Producto from './componentes/Producto';
+import {Producto} from './componentes/Producto';
 
 function App() {
   return (
