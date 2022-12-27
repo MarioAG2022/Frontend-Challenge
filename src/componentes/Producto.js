@@ -1,13 +1,19 @@
 import React from 'react';
+import App from '../App';
 
 function Producto(){
   return(
     <div className='contenedor-producto'>
       <img 
       className='imagen-producto' 
-      src={requiere('../img/img-carro.png')}
-      alt='Icono de carro'
+      src={require('../img/img-cama.png')}
+      alt='Icono de cama'
       />
+      <div className='Contenedor-texto-nombre'>
+        <p className='nombre-producto'>Beds</p>
+      </div>
     </div> 
   );
 }
+
+export default Producto;
