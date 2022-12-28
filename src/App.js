@@ -4,6 +4,7 @@ import Producto from './componentes/Producto';
 import logo from './img/logo.png';
 
 function App() {
+
   return (
    
     <div className="App">
@@ -53,7 +54,6 @@ function App() {
           imagen='sillon'
           nombre='Sofa'
         />
-       
         <Producto
           imagen='tv'
           nombre='TV'

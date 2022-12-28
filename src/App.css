@@ -13,11 +13,12 @@ body {
   
 }
 .logo{
-  width: 3%;
-  height:40% ;
+  height:50px;
   display: flex;
-  padding-top: 30px;
-  padding-left: 70px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 25px;
 }
 
 h1{
@@ -85,6 +86,8 @@ a {
 }
 @media(max-width:760px){
   .navegacion-principal{
+    align-items:flex-end;
+    justify-content: flex-end;
     flex-direction: column;
   }
 }
