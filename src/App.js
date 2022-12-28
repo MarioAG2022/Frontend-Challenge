@@ -16,6 +16,7 @@ function App() {
       </div>
          
         <h1>What items to store?</h1>
+        <br></br>
         <p className='instrucciones'>
           Select which items you wish to store 
           before moving to your new home.
