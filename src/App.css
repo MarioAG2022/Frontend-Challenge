@@ -52,3 +52,28 @@ text-align: center;
 color: #666666;
 
 }
+.contenedor-componentes{
+  width: 1258px;
+  height: 667px;
+  left: 331px;
+  top: 639px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contenedor-navegacion{
+  width:120rem;
+  margin:0 auto;
+  background: #FD9255;
+  
+}
+.navegacion-principal{
+  width: 72rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  color: #F5F5F5;
+  margin-left: 30px;
+}

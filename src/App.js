@@ -4,8 +4,17 @@ import Producto from './componentes/Producto';
 
 function App() {
   return (
-    <div className="App">
    
+    <div className="App">
+      <div className='contenedor-navegacion'>
+        <nav className='navegacion-principal'>
+          <a href='#'>How We Work</a>
+          <a href='#'>Services</a>
+          <a href='#'>Free Quote</a>
+          <a href='#'>Contact</a>
+         </nav>
+      </div>
+         
         <h1>What items to store?</h1>
         <p className='instrucciones'>
           Select which items you wish to store 
@@ -15,8 +24,44 @@ function App() {
          
       <div className='contenedor-componentes'>
         <Producto
-          imagen=''
+          imagen='cama'
           nombre='Beds'
+        />
+        <Producto
+          imagen='refri'
+          nombre='Refrigerador'
+        />
+        <Producto
+          imagen='mueble'
+          nombre='Furniture'
+        />
+        <Producto
+          imagen='micro'
+          nombre='Oven'
+        />
+        <Producto
+          imagen='sillon'
+          nombre='Sofa'
+        />
+        <Producto
+          imagen='tv'
+          nombre='TV'
+        />
+        <Producto
+          imagen='lavadora'
+          nombre='Washer-dryer'
+        />
+        <Producto
+          imagen='mesa'
+          nombre='Dining'
+        />
+        <Producto
+          imagen='desk'
+          nombre='Desk'
+        />
+        <Producto
+          imagen='armario'
+          nombre='Wardrobe'
         />
       </div>
     </div>
