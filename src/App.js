@@ -1,12 +1,21 @@
 
 import './App.css';
 import Producto from './componentes/Producto';
+import logo from './img/logo.png';
 
 function App() {
   return (
    
     <div className="App">
+      
       <div className='contenedor-navegacion'>
+       
+          <img
+            className='logo'
+            src={logo}
+            alt='Logo de la pagina'
+          />
+        
         <nav className='navegacion-principal'>
           <a href='#'>How We Work</a>
           <a href='#'>Services</a>
@@ -44,6 +53,7 @@ function App() {
           imagen='sillon'
           nombre='Sofa'
         />
+       
         <Producto
           imagen='tv'
           nombre='TV'
